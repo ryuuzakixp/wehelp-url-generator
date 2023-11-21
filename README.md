@@ -20,7 +20,7 @@ Example minimum data required
 const wehelpGenerator = require('wehelp-url-generator');
 
 const data = {
-    code: 'xx' //change to valid code,
+    code: 'xx', //change to valid code
     experience_id: null,
     experience_date: '2023-11-21 10:00:00',
     company_unit_code: 'xxxx',
@@ -40,7 +40,7 @@ Example full data
 const wehelpGenerator = require('wehelp-url-generator');
 
 const data = {
-    code: 'xx' //change to valid code,
+    code: 'xx', //change to valid code
     experience_id: null,
     experience_date: '2023-11-10 10:00:00',
     company_unit_code: 'xxxx', 
