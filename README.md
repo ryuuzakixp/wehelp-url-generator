@@ -7,14 +7,19 @@ Function to help generate valid url for surveys on Wehelp
 ```shell
 npm i wehelp-url-generator
 ```
+
 ## Usage
 
-Import wehelp-url-generator
-
+JavaScript
 ```js
 const wehelpGenerator = require('wehelp-url-generator');
 
 ```
+TypeScript
+```ts
+import * as wehelpGenerator from 'wehelp-url-generator';
+```
+
 Example minimum data required
 ```js
 const wehelpGenerator = require('wehelp-url-generator');
