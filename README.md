@@ -32,7 +32,7 @@ const data = {
     }
 };
 const encryptKey = 'xxx'; // change to valid encryptKey
-const url = wehelpGenerator.generateUrl(obj, encryptKey);
+const url = wehelpGenerator.generateUrl(data, encryptKey);
 ```
 
 Example full data
@@ -61,6 +61,6 @@ const data = {
     },
 };
 const encryptKey = 'xxx'; // change to valid encryptKey
-const url = wehelpGenerator.generateUrl(obj, encryptKey);
+const url = wehelpGenerator.generateUrl(data, encryptKey);
 ```
 

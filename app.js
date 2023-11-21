@@ -36,8 +36,7 @@ function generateUrl(obj, encryptKey) {
   var encodedSignature = signature.replace(/\+/g, '_').replace(/\//g, '-');
   var accessToken = encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
   var query = querystring.stringify({ access_token: accessToken });
-  //var url = 'https://app.wehelpsoftware.com/survey_persons/link?' + query;
-  var url = 'http://localhost:8080/survey_persons/link?' + query;
+  var url = 'https://app.wehelpsoftware.com/survey_persons/link?' + query;
 
   return url;
 }
