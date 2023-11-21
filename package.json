@@ -1,0 +1,22 @@
+{
+  "name": "wehelp-url-generator",
+  "version": "1.0.0",
+  "description": "Helper to generate link for surveys",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "wehelp",
+    "nps",
+    "url",
+    "link"
+  ],
+  "author": "ryuuzakixp",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "moment": "^2.29.4",
+    "valid-url": "^1.0.9"
+  }
+}
