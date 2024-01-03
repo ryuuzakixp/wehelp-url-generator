@@ -32,7 +32,7 @@ const data = {
     person: {
         name: 'xxxx',
         internal_code: 'xxxx',
-        type: 'CUSTOMER',
+        type: 'CUSTOMER',//CUSTOMER,COLLABORATOR
         company_unit_code: 'xxx'
     }
 };
@@ -52,16 +52,16 @@ const data = {
     person: {
         name: 'xxxx',
         internal_code: 'xxxx',
-        type: 'CUSTOMER',
+        type: 'CUSTOMER',//CUSTOMER,COLLABORATOR
         company_unit_code: 'xxxxx',
         created_at: '2022-10-10',
         date_of_birth: '1988-07-06',
-        language: 'PORTUGUESE',
+        language: 'PORTUGUESE',//PORTUGUESE,ENGLISH,SPANISH
         email: 'xxxx@email.com',
         phone: 'xxxxxxxx',
     },
     cf: {
-        1: 'xxx', // id:valor
+        1: 'xxx', // id:value
         2: 'xx',
     },
 };
@@ -69,3 +69,6 @@ const encryptKey = 'xxx'; // change to valid encryptKey
 const url = wehelpGenerator.generateUrl(data, encryptKey);
 ```
 
+## Additional Information
+
+If your company uses a unique code such as email or phone, you must enter these fields in your person object
